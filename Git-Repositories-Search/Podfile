@@ -10,6 +10,7 @@ target 'Git-Repositories-Search' do
     pod 'RxCocoa'
     pod 'Moya'
     pod 'Kingfisher'
+    pod 'PromiseKit'
 
 
   target 'Git-Repositories-SearchTests' do
