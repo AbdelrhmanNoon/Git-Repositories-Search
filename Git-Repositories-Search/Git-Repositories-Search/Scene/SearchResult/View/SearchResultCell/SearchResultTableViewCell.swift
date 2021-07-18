@@ -24,6 +24,7 @@ class SearchResultTableViewCell: UITableViewCell {
     }
 }
 
+// MARK: - Cell Confguration
 extension SearchResultTableViewCell {
     func configure(with repo: SearchResultModel) {
         let url = URL(string: repo.owner.avatar_url)
