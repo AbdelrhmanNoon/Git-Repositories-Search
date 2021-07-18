@@ -45,7 +45,6 @@ class SearchResultViewModel: NSObject {
         }
     }
     
-    
     func willDisplayRepositories(with text: String) {
         getRepositoriesListFor(text: text)
     }
